@@ -59,7 +59,7 @@ body{
     /*div-container+flex*/
 
  .container{
-     width: 1158px;
+     width: 428px;
      margin: 0 auto;
      padding: 0 15px;
  }
@@ -85,10 +85,12 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--strong-blue);
-    margin-right: 76px;
+    margin-left: 16px;
+    margin-top: 24px;;
     cursor: pointer;
     display: flex;
 }
+
 
 .link{
     text-decoration: none;
@@ -108,7 +110,7 @@ body{
 .list {
     list-style: none;
     display: flex;
-    gap: 40px
+    row-gap: 72px
 }
 
 .menu-header{
@@ -174,7 +176,7 @@ img {
     background-color: var(--dark-grey);
     padding: 188px 0;
     margin: auto;
-    max-width: 1440px;
+    max-width: 428px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -189,7 +191,7 @@ img {
 }
 
 .heading {
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -197,7 +199,7 @@ img {
 }
 
 .heading-one {
-    max-width: 496px;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,12 +236,16 @@ img {
     /*section-two-index*/
 
 .section-index-two{
-    padding: 120px 0;
+    margin-top: 96px;
+    margin:auto;
+    width: 396px;
+    height: 1318px;
+    padding: 72px 0;
 }
 
 .heading-two{
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-grey);
@@ -247,7 +253,8 @@ img {
 
 .list-section{
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .punk-calc {
@@ -269,6 +276,8 @@ img {
 }
 
 .acapit {
+    width: 396px;
+    height: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
