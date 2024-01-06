@@ -1,67 +1,4 @@
  
- /* Styles mobile */
-    @media screen and (max-width: 428px) {
-    .container{
-        width: 428px;}
-
-.menu-header,
-.visually-hidden,
-.link-header,
-.address-logo,
-.punk-calc{
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    }
-
-.logo-web{
-    padding: 24px;
-}
-
-.container-for-icon{
-    overflow: hidden;
-}
-
-.section-index-one{
-    width: 428px;
-    height: 432px;
-    padding: 112px 0;
-    margin: 0 auto;
-}
-
-.heading{
-    width:320px;
-    font-family: Roboto;
-    font-size: 36px;
-    line-height: 1.07;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    text-align: center;
-    padding-bottom: 72px;
-}
-
-.list{
-    row-gap: 72px;
-}
-}
-
-
-
-    /*Styles tablet*/
-    @media screen and (min-width: 768px), (max-width: 1199px) {
-        .container {
-            width: 768px;
-        }
-    }
-
-    /* Styles desctop */
-    @media screen and (min-width: 1200px) {
-        .container {
-            width: 1158px;
-        }
-    }
-
-
  /*root*/
 
  :root {
@@ -932,4 +869,68 @@
  .send-button-modal:hover,
  .send-button-modal:focus {
      background-color: var(--spherical-blue);
+ }
+
+ /* Styles mobile */
+ @media screen and (max-width: 428px) {
+     .container {
+         width: 428px;
+     }
+
+     .menu-header,
+     .visually-hidden,
+     .link-header,
+     .address-logo,
+     .punk-calc {
+         width: 1px;
+         height: 1px;
+         overflow: hidden;
+     }
+
+     .logo-web {
+         padding: 24px;
+     }
+
+     .container-for-icon {
+         overflow: hidden;
+     }
+
+     .section-index-one {
+         width: 428px;
+         height: 432px;
+         padding: 112px 0;
+         margin: 0 auto;
+     }
+
+     .heading {
+         width: 320px;
+         font-family: Roboto;
+         font-size: 36px;
+         line-height: 1.07;
+         letter-spacing: 0.72px;
+         text-transform: capitalize;
+         text-align: center;
+         padding-bottom: 72px;
+     }
+
+     .list {
+         row-gap: 72px;
+     }
+ }
+
+
+
+ /*Styles tablet*/
+ @media screen and (min-width: 768px),
+ (max-width: 1199px) {
+     .container {
+         width: 768px;
+     }
+ }
+
+ /* Styles desctop */
+ @media screen and (min-width: 1200px) {
+     .container {
+         width: 1158px;
+     }
  }
